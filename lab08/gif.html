@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gif page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+    <h1>welcome to my gif!</h1>
+
+    <nav id="myTopnav" class="topnav">
+        <a href="index.html">🏡 home</a>
+        <a href="gif.html">🌀 rasengan!</a>
+        <a href="walks.html">🚶🏽‍♂️ lets walk!</a>
+        <a href="space.html">👨🏻‍🚀 dive in</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+    </nav>
+</header>
+
+<br>
+<img src="images/rasengan.gif" alt="naruto gif">
+
+<h2>gif file</h2>
+<br>
+
+<p>i chose this gif because i love naurto. i have been watching naurto since a child
+    now i am watching boruto which follows naruto's son. naruto has always been one of my favorite anime series
+    it has inspired me to never give up.
+</p>
+
+<footer>
+    <a href="https://es.pinterest.com/pin/692780355162486927/">Image source</a>
+</footer>
+</main>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>

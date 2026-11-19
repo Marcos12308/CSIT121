@@ -1,0 +1,111 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("images/tint-orange.jpg");
+    background-size: cover;
+    background-color: black;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    color: darkorange;
+}
+
+.topnav {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.topnav a {
+    display: inline-block;
+    color: orange;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: darkorange;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+a {
+    color: orange;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+h2 {
+    text-align: center;
+    color: darkorange;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+p {
+    color: darkorange;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+main {
+    background-color: black;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+ul, li {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+    color: darkorange;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        display: inline-block;
+    }
+
+    .topnav.responsive a {
+        display: block;
+    }
+}
